@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="{{ asset('/css/mark_style.css') }}"/>
     
   </a>
-  <script src="js/showdown.min.js"></script>
+  <script src="{{ asset('/js/showdown.min.js') }}"></script>
 
 </head>
 <body>
